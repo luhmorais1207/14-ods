@@ -1,0 +1,274 @@
+header {
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 100%;
+	height: 90px;
+}
+
+nav{
+ 	background-color: #1E90FF;
+	width:100%;
+	height:55px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	font-size:22px;
+	text-align:center;
+}
+
+strong {
+    color: dodgerblue;
+}
+
+#fist_p {
+	text-align: center;
+	font-family: 'Times New Roman';
+	font-size: 22px;
+	margin-left: 9px;
+	text-align: justify;
+    color: white;
+}
+
+#ft0 {
+	width: 1350px;
+	height: 100%;
+	border-radius: 0%;
+	margin-left: 0%;
+}
+
+#container-1 {
+    display: flex;
+}
+
+.ft1 {
+    width: 300px;
+    height: 270px;
+    border-radius: 7px;
+    margin-left: 250px;
+}
+
+.ft2 {
+    width: 1000px;
+    height: 400px;
+    margin-left: 200px;
+}
+
+#lado_a_lado, h2 {
+    display: inline-block;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: Verdana;
+    text-align: center;
+    margin-bottom: 10px; 
+    color: deepskyblue;
+    margin-left: 140px;
+}
+
+h3 {
+    font-size: 22px;
+    font-family: Verdana;
+    margin-left: 25px;
+}
+
+p {
+    font-size: 19px;
+    font-family: sans-serif;
+    text-align: justify;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.container-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 7px;
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#container-3 {
+    display: flex;
+}
+
+#container-4 {
+    display: flex;
+}
+
+.ft3, h1 {
+    display: inline-block;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: Verdana;
+    text-align: center;
+    margin-bottom: 10px; 
+    color: deepskyblue;
+    margin-left: 140px;
+}
+
+#ft3 {
+    width: 450px;
+    height: 400px;
+    margin-left: 180px ;
+    border-radius: 7px;
+}
+
+#ft4 {
+    width: 850px;
+    height: 400px;
+    border-radius: 5px;
+    margin-left: 200px;
+}
+
+li {
+    font-size: 20px;
+    font-family: Verdana;
+    color: deepskyblue;
+    margin-left: 150px;
+}
+
+#p_FT4 {
+    font-size: 19px;
+    font-family: sans-serif;
+    text-align: justify;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+h4 {
+    font-size: 19px;
+    font-family: verdana;
+    margin-left: 20px;
+}
+
+form {
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(10, 255, 255),rgb(2, 61, 255));
+    border-radius: 10px;
+}
+
+.escolhar{
+    background-color: #1E90FF;
+    color:aliceblue;
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+	height: 140px;
+}
+a{
+    color: #ffffff;
+    margin: 20px ;
+    text-decoration: none;
+}
+.letra_color{
+    color: #ffffff;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        height: auto;
+    }
+
+    #ft0 {
+        width: 100%;
+        height: auto;
+    }
+
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #fist_p {
+        font-size: 18px;
+        margin-left: 38px;
+    }
+
+    .container-1 {
+        flex-direction: column;
+    }
+
+    .lado_a_lado {
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .ft1 {
+        width: 200px;
+        height: 200px;
+        margin-right: 20px;
+    }
+
+    .ft2 {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    article h3 {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    article p {
+        font-size: 16px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .container-2 {
+        grid-template-columns: 1fr;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .coluna_metas1,
+    .coluna_metas2 {
+        margin-bottom: 20px;
+    }
+
+    #ft3 {
+        width: 250px;
+        height: 250px;
+    }
+
+    ul li {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    #ft4 {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .container-3 h1 {
+        font-size: 20px;
+    }
+
+    .container-3 {
+        align-items: center;
+    }
+
+    form {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    footer {
+        height: auto;
+    }
+}
